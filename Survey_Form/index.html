@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style_survey_form.css">
+    <title>FCC: Survey Form</title>
+
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <form id="survey-form">
+        <p id="description">Preencha todos os campos do formulário FCC</p>
+
+        <div class="div-labels">
+            <label id="name-label" for="name">Nome:</label>
+            <input autofocus id="name" class="inputs" type="text" maxlength="150" placeholder="Escreva seu nome" required>
+        </div>
+
+        <div class="div-labels">
+            <label id="email-label" for="email">Email:</label>
+            <input id="email" class="inputs" type="email" placeholder="Escreva seu email" required>
+        </div>
+
+        <div class="div-labels">
+            <label id="number-label" for="number">Idade:</label>
+            <input id="number" class="inputs" type="number" min="10" max="100" placeholder="Idade" required>
+
+            <label id="dropdown-label" for="dropdown">Situação:</label>
+            <select name="dropdown" id="dropdown" required>
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="casado">Casado(a)</option>
+                <option value="viuvo">Viuvo(a)</option>
+            </select>
+        </div>
+
+        <div class="div-labels">
+            <label id="sexo-label" for="sexo">Sexo:</label>
+            <input name="radiobox" type="radio" value="masculino" checked>Masculino
+            <input name="radiobox" type="radio" value="feminino">Feminino
+            <input name="radiobox" type="radio" value="outro">Outro
+        </div>
+
+        <div class="div-labels">
+            <label for="checkbox">Quais suas áreas de preferência?</label>
+            <input type="checkbox" value="checkbox">Frontend
+            <input type="checkbox" value="checkbox">Backend
+            <input type="checkbox" value="checkbox">Full-Stack
+            <input type="checkbox" value="checkbox">Mobile   
+        </div>
+
+        <div class="div-coment-label">
+            <label id="comentario" for="comentários">Algum Comentário?:
+                <div>
+                    <textarea name="textarea" id="textarea" cols="50" rows="5" placeholder="Digite seus comentários aqui."></textarea>
+                </div>
+            </label>
+
+        </div>
+        <hr>
+        <button id="submit" type="submit">
+            Enviar
+        </button>
+    </form>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

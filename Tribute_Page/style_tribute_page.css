@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(71, 69, 69)
+}
+
+#image{
+    max-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 50%;
+}
+
+a{
+    color: rgb(2, 27, 27)
+}
+
+ul{
+    font-weight: normal;
+    padding-right: auto;
+    margin-right: 20px;
+}
+
+li{
+    font-weight: bold;
+}
+
+#tribute-info{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    text-align: justify;
+    background-color: whitesmoke;
+    /*Sombra que corresponde a offset-x | offset-y | blue-radius | spread-radius */
+    box-shadow: 0 10px 20px 0;
+}
+
+#img-div{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: whitesmoke;
+    box-shadow: 0 10px 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+#title{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: whitesmoke;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-right: auto;
+    box-shadow: 0 10px 20px;
+}
